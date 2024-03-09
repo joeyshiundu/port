@@ -1,6 +1,7 @@
 import React from 'react';
 import Intro from './intro';
 import Slideshow from './slideshow';
+import Time from './time';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <div className='text-7xl text-center text-white font-sans tracking-wide'>
         < Intro />
         <Slideshow />
+        <Time/>
       </div>
 
     </div>

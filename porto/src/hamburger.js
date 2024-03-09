@@ -14,7 +14,7 @@ const HamburgerMenu = () => {
         <div className="hamburger__hidden"></div>
       </div>
     </div>
-  );
+  ); 
 };
 
-export default HamburgerMenu;
+export default HamburgerMenu; 
