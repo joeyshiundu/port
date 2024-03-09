@@ -6,7 +6,7 @@ import 'devicon/devicon.min.css';
 function Slideshow() {
   return (
     <div className="py-4 bg-white" >
-        <
+        
         <div className="flex gap-x-4">
         <div className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ...  container space-y-10 px-auto text-5xl shadow-xl  shadow-cyan-500/50 font-mono hover:' >Web Development
             <p className="text-sm font-sans">
