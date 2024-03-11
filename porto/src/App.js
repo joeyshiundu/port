@@ -2,6 +2,8 @@ import React from 'react';
 import Intro from './intro';
 import Slideshow from './slideshow';
 import Time from './time';
+import Contacts from './contacts';
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
         < Intro />
         <Slideshow />
         <Time/>
+        <Contacts/>
       </div>
 
     </div>
