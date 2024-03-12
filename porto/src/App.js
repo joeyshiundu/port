@@ -3,6 +3,7 @@ import Intro from './intro';
 import Slideshow from './slideshow';
 import Time from './time';
 import Contacts from './contacts';
+import Footer from './footer';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Slideshow />
         <Time/>
         <Contacts/>
+        <Footer/>
       </div>
 
     </div>
