@@ -23,7 +23,7 @@ const Hamburger = () => {
             <path
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth={2}
+              strokeWidth={2} 
               d="M6 18L18 6M6 6l12 12"
             />
           ) : (
@@ -39,7 +39,17 @@ const Hamburger = () => {
 
       {isOpen && (
         <div className="absolute top-0 right-0 mt-2 w-48 bg-white rounded-lg shadow-lg">
-          {/* Your menu items go here */}
+          <ul>
+            <li>
+              <a href="/contacts" className="block px-4 py-2 text-gray-800 hover:text-white">Contacts</a>
+            </li>
+            <li>
+              <a href="/about" className="block px-4 py-2 text-gray-800 hover:text-white">About</a>
+            </li>
+            <li>
+              <a href="/projects" className="block px-4 py-2 text-gray-800 hover:text-white">Projects</a>
+            </li>
+          </ul>
         </div>
       )}
     </div>
@@ -47,3 +57,4 @@ const Hamburger = () => {
 };
 
 export default Hamburger;
+
