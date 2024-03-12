@@ -5,16 +5,18 @@ import 'animate.css/animate.min.css'
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center h-screen my-0">
-      <div className="container text-5xl font-bold text-white-500 shadow-2xl bg-slate-800">
-        <p className=" space-x-4 font-mono"> 
-          Joey Shiundu
-        </p>         
-        <div className="flex justify-center items-center space-x-4 font-serif text-xl">
-            Designed by Joey Shiundu|Developed by Joey Shiundu
+    <footer className="bg-gray-800 p-20">
+      <div className="container mx-auto">
+        <div className="flex justify-center">
+          <div className="w-1/4">
+            <h5 className="text-2xl font-bold italic text-white">Carpe Diem</h5>
+            <p className="text-white mt-4 italic">Carpe Momento</p>
+          </div>
         </div>
       </div>
-    </div>
+     </footer> 
+          
+
   );
 }
 

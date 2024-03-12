@@ -4,7 +4,7 @@ import './App.css';
 
 const Time = () => {
   return (
-    <div className="flex items-center justify-center h-screen space-x-10">
+    <div className="flex items-center justify-center space-x-10 mx-10 my-10">
       <div className="container text-5xl font-bold text-white-500 shadow-2xl  justify-center py-3" >
         <p className='p-4'>
           Years of Experience:
