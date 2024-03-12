@@ -4,6 +4,8 @@ import Slideshow from './slideshow';
 import Time from './time';
 import Contacts from './contacts';
 import Footer from './footer';
+import Hamburger from './hamburger';
+
 
 
 
@@ -23,6 +25,7 @@ function App() {
         </nav>
       </header>
       <div className='text-7xl text-center text-white font-sans tracking-wide'>
+        <Hamburger/>
         < Intro />
         <Slideshow />
         <Time/>
