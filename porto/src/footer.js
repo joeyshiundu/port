@@ -5,12 +5,11 @@ import 'animate.css/animate.min.css'
 
 const Footer = () => {
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="container text-5xl font-bold text-white-500 shadow-2xl">
+    <div className="flex justify-center items-center h-screen my-0">
+      <div className="container text-5xl font-bold text-white-500 shadow-2xl bg-slate-800">
         <p className=" space-x-4 font-mono"> 
           Joey Shiundu
-        </p> 
-        
+        </p>         
         <div className="flex justify-center items-center space-x-4 font-serif text-xl">
             Designed by Joey Shiundu|Developed by Joey Shiundu
         </div>
