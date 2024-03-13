@@ -39,15 +39,15 @@ const Hamburger = () => {
 
       {isOpen && (
         <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute">
-          <ul className='flex animated-menu '>
+          <ul className='flex animated-menu space-x-4 bg-transparent '>
             <li>
-              <a href="/contacts" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">Contacts</a>
+              <a href="/contacts" className="block  px-4 py-2 hover:text-gray-800 text-white bg-cyan-300">Contacts</a>
             </li>
             <li>
-              <a href="/about" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">About</a>
+              <a href="/about" className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">About</a>
             </li>
             <li>
-              <a href="/projects" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">Projects</a>
+              <a href="/projects" className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">Projects</a>
             </li>
           </ul>
         </div>

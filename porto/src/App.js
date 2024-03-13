@@ -12,7 +12,7 @@ import Hamburger from './hamburger';
 
 function App() {
   return (
-    <div className='text-right scroll-smooth'>
+    <div className='text-right scroll-smooth' id='home'>
       <header className='flex justify-between items-center p-4'>
         <div className='flex items-center'>
           <img src='logo.png' alt='Logo' className='w-10 h-10' />
