@@ -19,13 +19,10 @@ function App() {
           <h1 className='text-2xl text-white ml-2 p-4'>My Portfolio Webpage</h1>
         </div>
         <nav className='flex space-x-4'>
-          <a href='#' className='text-white'>Contacts</a>
-          <a href='#' className='text-white'>About</a>
-          <a href='#' className='text-white'>Projects</a>
+          < Hamburger/>
         </nav>
       </header>
       <div className='text-7xl text-center text-white font-sans tracking-wide'>
-        <Hamburger/>
         < Intro />
         <Slideshow />
         <Time/>

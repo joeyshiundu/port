@@ -8,7 +8,7 @@ const Hamburger = () => {
   };
 
   return (
-    <div className="relative">
+    <div className="relative flex">
       <button
         className="text-gray-500 hover:text-gray-700 focus:outline-none focus:text-gray-700"
         onClick={toggleMenu}
@@ -38,16 +38,16 @@ const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <div className="absolute top-0 right-0 mt-2 w-48 bg-white rounded-lg shadow-lg">
-          <ul>
+        <div className="ml-2 top-0 right-0 mt-2 w-48 rounded-lg shadow-lg">
+          <ul className='flex'>
             <li>
-              <a href="/contacts" className="block px-4 py-2 text-gray-800 hover:text-white">Contacts</a>
+              <a href="/contacts" className="block px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
             </li>
             <li>
-              <a href="/about" className="block px-4 py-2 text-gray-800 hover:text-white">About</a>
+              <a href="/about" className="block px-4 py-2 hover:text-gray-800 text-white">About</a>
             </li>
             <li>
-              <a href="/projects" className="block px-4 py-2 text-gray-800 hover:text-white">Projects</a>
+              <a href="/projects" className="block px-4 py-2 hover:text-gray-800 text-white">Projects</a>
             </li>
           </ul>
         </div>
@@ -57,4 +57,3 @@ const Hamburger = () => {
 };
 
 export default Hamburger;
-
