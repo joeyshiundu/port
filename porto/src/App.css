@@ -62,3 +62,13 @@ body{
   }
 }
 
+h5:after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background-color: #37a7ff;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-40px, 10px);
+}
