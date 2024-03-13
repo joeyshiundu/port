@@ -14,7 +14,7 @@ const Contacts = () => {
         <p className="py-5">
           Let's talk about your product
         </p>
-        <button onClick={handleContactClick} className=" rounded-2xl text-zinc-950 mx-auto max-w-30 mt-7 p-3 bg-white hover:animate-bounce hover:bg-blue-600 " >
+        <button onClick={handleContactClick} className=" rounded-2xl text-zinc-950 mx-auto max-w-30 mt-7 p-3 bg-blue-700/50  hover:animate-bounce hover:bg-green-600/50 " >
           Contact Me
         </button>
       </div>
