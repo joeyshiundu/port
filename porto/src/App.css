@@ -43,5 +43,23 @@
   background-attachment: fixed;
   background-size: cover;
   scroll-behavior: smooth;
+  ;
+}
+
+
+.animated-menu {
+  animation: slideIn 0.5s ease forwards;
+  
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 

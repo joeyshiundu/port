@@ -8,7 +8,7 @@ const Hamburger = () => {
   };
 
   return (
-    <div className="relative flex">
+    <div className="relative">
       <button
         className="text-gray-500 hover:text-gray-700 focus:outline-none focus:text-gray-700"
         onClick={toggleMenu}
@@ -38,16 +38,16 @@ const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <div className="ml-2 top-0 right-0 mt-2 w-48 rounded-lg shadow-lg">
-          <ul className='flex'>
+        <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute">
+          <ul className='flex animated-menu '>
             <li>
-              <a href="/contacts" className="block px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
+              <a href="/contacts" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">Contacts</a>
             </li>
             <li>
-              <a href="/about" className="block px-4 py-2 hover:text-gray-800 text-white">About</a>
+              <a href="/about" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">About</a>
             </li>
             <li>
-              <a href="/projects" className="block px-4 py-2 hover:text-gray-800 text-white">Projects</a>
+              <a href="/projects" className="block px-4 py-2 hover:text-gray-800 text-white bg-transparent">Projects</a>
             </li>
           </ul>
         </div>
