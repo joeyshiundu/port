@@ -41,7 +41,7 @@ const Hamburger = () => {
         <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute">
           <ul className='flex animated-menu space-x-4 bg-transparent '>
             <li>
-              <a href="/contacts" className="block  px-4 py-2 hover:text-gray-800 text-white bg-cyan-300">Contacts</a>
+              <a href="/contacts" className="block  px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
             </li>
             <li>
               <a href="/about" className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">About</a>

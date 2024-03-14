@@ -4,20 +4,20 @@ import './App.css';
 
 const Time = () => {
   return (
-    <div className="flex items-center justify-center space-x-10 mx-10 my-10">
-      <div className="container text-5xl font-bold text-white-500 shadow-2xl  justify-center py-3" >
+    <div className="flex items-center justify-center space-x-10 mx-10 my-10  max-md:flex-col ">
+      <div className="container text-5xl font-bold text-white-500 shadow-2xl  justify-center py-3 max-md:text-3xl" >
         <p className='p-4'>
           Years of Experience:
         </p>
         <CountUp end={4} duration={2} />
       </div>
-      <div className="container text-5xl font-bold text-white-500  shadow-2xl  justify-center py-3">
+      <div className="container text-5xl font-bold text-white-500  shadow-2xl  justify-center py-3 max-md:text-3xl max-md:ml-0">
         <p className='p-4'>
           Happy Clients:
         </p>
         <CountUp end={20} duration={2} />
       </div>
-      <div className="container text-5xl font-bold text-white-500  shadow-2xl  justify-center py-3" >
+      <div className="container text-5xl font-bold text-white-500  shadow-2xl  justify-center py-3 max-md:text-3xl" >
         <p className='p-4'>
           Projects Completed:
         </p>

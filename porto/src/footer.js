@@ -5,7 +5,7 @@ import 'animate.css/animate.min.css'
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 p-20">
+    <footer className="bg-gray-800 p-20 max-md:m-auto">
       <div className="container mx-auto">
         <div className="flex justify-center">
           <div className="w-1/2">
