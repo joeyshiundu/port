@@ -9,8 +9,8 @@ const Contacts = () => {
   };
 
   return (
-    <div className="flex justify-center items-center mx-5 p-5">
-      <div className="container text-5xl font-bold text-white-500 shadow-2xl p-5 pb-10">
+    <div className="flex justify-center items-center mx-5 p-5 ">
+      <div className="container text-5xl font-bold text-white-500 shadow-2xl p-5 pb-10 max-md:text-2xl">
         <p className="py-5">
           Let's talk about your product
         </p>
