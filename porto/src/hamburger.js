@@ -38,8 +38,8 @@ const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute">
-          <ul className='flex animated-menu space-x-4 bg-transparent '>
+        <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute ">
+          <ul className='flex animated-menu space-x-4 bg-transparent max-md:mt-10 '>
             <li>
               <a href="/contacts" className="block  px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
             </li>

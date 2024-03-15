@@ -16,9 +16,9 @@ function App() {
       <header className='flex justify-between items-center p-4'>
         <div className='flex items-center'>
           <img src='logo.png' alt='Logo' className='w-10 h-10' />
-          <h1 className='text-2xl text-white ml-2 p-4'>My Portfolio Webpage</h1>
+          <h1 className='text-2xl text-white ml-2 p-4 '>My Portfolio Webpage</h1>
         </div>
-        <nav className='flex space-x-4'>
+        <nav className='flex space-x-4 '>
           < Hamburger/>
         </nav>
       </header>
