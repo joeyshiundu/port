@@ -3,10 +3,12 @@ import './App.css';
 import 'devicon/devicon.min.css';
 import 'animate.css';
 
+const handleContactClick = () => {
+  window.location.href = "mailto:shiundujoey@gmail.com";
+};
+
 const Contacts = () => {
-  const handleContactClick = () => {
-    window.location.href = "mailto:shiundujoey@gmail.com";
-  };
+  
 
   return (
     <div className="flex justify-center items-center mx-5 p-5 ">
@@ -23,3 +25,6 @@ const Contacts = () => {
 }
 
 export default Contacts;
+
+export { handleContactClick}
+

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { handleContactClick } from './contacts';
 
 const Hamburger = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +11,8 @@ const Hamburger = () => {
   const projectButton = () => {
     window.alert('Stay tuned, guys! Our Projects are about to burst onto the scene like a burst of confetti at a party! 🎉✨  #ComingSoon')
   }
+
+
 
   return (
     <div className="relative">
@@ -45,16 +48,17 @@ const Hamburger = () => {
         <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute ">
           <ul className='flex animated-menu space-x-4 bg-transparent max-md:mt-10 '>
             <li>
-              <a  href="/contacts" className="block  px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
+              <a onClick={handleContactClick} className="block  px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
             </li>
             <li>
               <a href="/about" className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">About</a>
             </li>
             <li>
-              <a onClick={projectButton} href="/projects" className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">Projects</a>
+              <a onClick={projectButton}  className="block px-4 py-2  hover:text-gray-800 text-white bg-transparent">Projects</a>
             </li>
           </ul>
         </div>
+        
       )}
     </div>
   );
