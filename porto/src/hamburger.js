@@ -45,8 +45,8 @@ const Hamburger = () => {
       </button>
 
       {isOpen && (
-        <div className="top-0 right-0 mt-2 mr-5 rounded-lg shadow-lg absolute ">
-          <ul className='flex animated-menu space-x-4 bg-transparent max-md:mt-10 '>
+        <div className="top-0 right-0  mr-5 rounded-lg shadow-lg absolute ">
+          <ul className='flex animated-menu space-x-4 bg-transparent max-md:flex-col  '>
             <li>
               <a onClick={handleContactClick} className="block  px-4 py-2 hover:text-gray-800 text-white">Contacts</a>
             </li>
