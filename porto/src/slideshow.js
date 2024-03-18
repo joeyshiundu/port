@@ -5,7 +5,7 @@ import 'devicon/devicon.min.css';
 
 function Slideshow() {
   return (
-    <div className="py-4" >
+    <div className="py-6" >
         
         <div className="flex gap-x-4 max-md:flex-col max-md:m-auto ">
         <div className='  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-blue-600/30 duration-400 ...  container space-y-10 p-auto text-5xl shadow-xl  shadow-blue-600/50 font-mono max-md:text-3xl ' >Web Development
